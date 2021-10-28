@@ -1,0 +1,10 @@
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\bin\Debug\my notepad.exe.config
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\bin\Debug\my notepad.exe
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\bin\Debug\my notepad.pdb
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\obj\Debug\my notepad.csprojResolveAssemblyReference.cache
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\obj\Debug\my_notepad.Properties.Resources.resources
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\obj\Debug\my notepad.csproj.GenerateResource.Cache
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\obj\Debug\my notepad.exe
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\obj\Debug\my notepad.pdb
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\obj\Debug\my_notepad.MainForm.resources
+c:\users\pandamin\documents\visual studio 2015\Projects\my notepad\my notepad\obj\Debug\my_notepad.ExitDialog.resources
