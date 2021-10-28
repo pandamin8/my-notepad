@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace my_notepad
@@ -23,9 +24,32 @@ namespace my_notepad
             exitDialog = new ExitDialog();
             DialogResult dr = exitDialog.ShowDialog();
 
-            if(dr == DialogResult.Cancel)
+            switch (dr)
             {
-                e.Cancel = true;
+                case DialogResult.Cancel:
+                    e.Cancel = true;
+                    break;
+
+                case DialogResult.Yes:
+
+                    using (SaveFileDialog sfd = new SaveFileDialog())
+                    {
+                        sfd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                        sfd.FilterIndex = 2;
+
+                        if (sfd.ShowDialog() == DialogResult.OK)
+                        {
+                            File.WriteAllText(sfd.FileName, tbMainText.Text);
+                        }
+                    }
+
+                    break;
+
+                case DialogResult.No:
+
+                    e.Cancel = false;
+                    break;
+                   
             }
         }
 
